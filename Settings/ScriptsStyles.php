@@ -1,6 +1,6 @@
 <?php
 
-namespace WpComponents\WordPress;
+namespace WpComponents\Settings;
 
 /**
  * Deal with WordPress assets

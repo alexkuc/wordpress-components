@@ -1,6 +1,6 @@
 <?php
 
-namespace WpComponents\WordPress;
+namespace WpComponents\Settings;
 
 /**
  * Register theme-related features
