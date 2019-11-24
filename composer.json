@@ -1,0 +1,17 @@
+{
+    "name": "alexkuc/wpcomponents",
+    "description": "A collection of custom re-usable WordPress components",
+    "type": "library",
+    "require": {
+        "symfony/templating": "^4.4"
+    },
+    "authors": [
+        {
+            "name": "Alexander Kucheryuk",
+            "email": "alexander.kucheryuk@icloud.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"WpComponents\\": "./"}
+    }
+}
