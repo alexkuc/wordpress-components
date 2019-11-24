@@ -64,7 +64,16 @@ This is a pseudo-router for WordPress. It is called *pseudo* as it does not map 
 
 ### Settings
 
-Settings is not a component per se but it shows how you can configure the WordPress theme using OOP style.
+Settings is not a component per se but it shows how you can configure the WordPress theme using OOP style. Have a look at the following files in the `Settings` folder:
+
+| File | Purpose |
+| --- | --- |
+| Menus.php | Hides certain admin menus |
+| PostTypesTaxonomies.php | See `Content` headings |
+| ScriptsStyles.php | Enqueues stylesheets and scripts\* |
+| ThemeSupport.php | Add theme-specific features to WordPress |
+
+>\*Special note: notice how css attribute `integrity` is added via `DOM` instead of `str_replace` or similar string function
 
 ### Templates
 

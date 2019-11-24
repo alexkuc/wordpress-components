@@ -4,7 +4,7 @@ namespace WpComponents;
 
 require __DIR__ . '/vendor/autoload.php';
 
-use WpComponents\Settings\WordPress\{
+use WpComponents\WordPress\{
     Menus,
     ThemeSupport,
     ScriptsStyles,

@@ -1,6 +1,6 @@
 <?php
 
-namespace WpComponents\Settings\WordPress;
+namespace WpComponents\WordPress;
 
 use WpComponents\Content\Utilities;
 use WpComponents\Content\PostTypes;
